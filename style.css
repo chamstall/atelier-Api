@@ -1,0 +1,18 @@
+.card{
+    background-color: rgba(000,000,000, 0.8);
+    color:#fff;
+    box-shadow: 0px  0px 12px #FFC107;
+    margin: auto;
+    text-align: center;
+    padding: 3px;
+}
+@media(max-width:576px){
+    .card{
+        width: 300px;
+    }
+}
+@media(max-width:350px){
+    .card{
+        width: 220px;
+    }
+}
